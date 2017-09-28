@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Lz/o59yPm79OiVyGzFF+UIzplQnFYUlzJ0Xa5grncpmFcgHBTaP+mGouisJtmZMfqNNxDFiswwdvQS6hjOwGP13n/+pddvzzHDp+g8XUiFmdwM6c8OGe0njSrCz3oSLUs0japKrYDX/x/r7yME5R9v2TINipPmabx2gHzP+PR2kZcFQeoGOPGhcx7SwV3Pz/8vYyUKWru+v9Rsj1SMCGe7bKkpOCUKMYNQmy+xU4Ffa2CyLPRmPTQurDPeGCIJOkzzTEh3AxzLaWoqgxZhJxImZZe34dqOYcIWOwf1MNcqltysGT9i0SRyaoLrIpFB1JWUYcWWFfoZvQr/L7PO9SGmxNOAXU02yJTU1QLciLeX19MgnhAV3xq3Uhip3x7Hnr63Lu8ECNROb/W9vzA9rqOMbvnf/z+3G6caFLDZxYr9UFc73CWez87dpw+RU7coy7Y7ZwUoXeGDi86WcR+vmtQ1zHN1heOOukqO/3KaoIRXEvOaWwtG0Tod0wDJhngtCTusmBGgLX/5TevJ3osxDTZEqVQ5qWujkVvTU4Bd5+zne6LnH7TUWY2fyp1oJ0uBK1t+YDf4yrmknTL9z+SIPci64vtqVCM6hI3tsfot8pAjrFiahUlBEIsZ1saLGNz6S3WanNJsMHvrSrnrEYT8AUawE/nyhSDf5q/SoPAsHM8i8=
+  app: aqueous-dusk-70508
+  on:
+    repo: haleytownsend/node-shopping-list-integration-tests
